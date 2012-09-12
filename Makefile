@@ -23,7 +23,7 @@ FeOS-build: FeOS
 
 FeOS:
 	@echo FeOS directory does not exist, cloning repository...
-	@git clone git://github.com/mtheall/FeOS.git
+	@git clone git://github.com/fincs/FeOS.git
 
 else
 ############## STAGE 2 ##############
