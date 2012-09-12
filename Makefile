@@ -50,6 +50,7 @@ FeOS-SDK:
 	@cp -r FeOS/sdk/mk/* FeOS-SDK/mk/
 	@cp -r FeOS/sdk/templates/* FeOS-SDK/templates/
 	@cp $(shell find FeOS/sdk/userlib -maxdepth 1 -type f) FeOS-SDK/userlib/
+	@cp FeOS/sdk/README.txt FeOS-SDK/
 	@cp FeOS/COPYING FeOS-SDK/
 
 $(USERLIBS):
